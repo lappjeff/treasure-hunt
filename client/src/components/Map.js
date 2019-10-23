@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Grid from '@material-ui/core/Grid';
-import mapJSON from '../data/maze-20191023.json';
+import mapJSON from '../data/maze-complete.json';
 import MapRow from './MapRow';
 import styled from 'styled-components';
 
