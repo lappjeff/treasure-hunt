@@ -7,7 +7,8 @@ function App() {
   return (
     <Grid container spacing={2}>
       <Grid item xs={12}>
-        <Typography variant="h2">Treasure Hunt</Typography>
+        <Typography variant="h1" style={{fontSize: '38px', textAlign: 'center'}}>LAMDA TREASURE HUNT</Typography>
+        {/* Map */}
         <button onClick={traverseMap}>Traverse Map</button>
       </Grid>
     </Grid>
