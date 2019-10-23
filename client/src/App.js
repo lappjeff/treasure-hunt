@@ -1,7 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import traverseMap from './helpers/traverseMap';
+import { Map, RoomInfo, PlayerInfo, Controls } from './components/index';
 
 function App() {
   return (
@@ -12,23 +12,18 @@ function App() {
       <Grid item xs={12}>
         <Grid container spacing={2}>
           <Grid item xs={9}>
-            {/* Map */}
-            Map
+            <Map />
           </Grid>
           <Grid item xs={3}>
             <Grid container spacing={2}>
               <Grid item xs={12}>
-                {/* RoomInfo */}
-                RoomInfo
+                <RoomInfo />
               </Grid>
               <Grid item xs={12}>
-                {/* PlayerInfo */}
-                PlayerInfo
+                <PlayerInfo />
               </Grid>
               <Grid item xs={12}>
-                {/* Controls */}
-                Controls
-                <button onClick={traverseMap}>Traverse Map</button>
+                <Controls />
               </Grid>
             </Grid>
           </Grid>
